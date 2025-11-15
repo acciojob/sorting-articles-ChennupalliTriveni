@@ -1,1 +1,41 @@
-/*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px 20px;
+
+  /* FULL PAGE BACKGROUND IMAGE */
+  background: url("https://images.unsplash.com/photo-1505028106030-e07ea1bd80c3")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  font-size: 28px;
+}
+
+/* List container */
+ul {
+  width: 380px;
+  margin: 0 auto;
+  list-style-type: disc;
+
+  background: rgba(255, 255, 255, 0.85); /* White with slight transparency */
+  border-radius: 10px;
+  padding: 25px 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Each item */
+li {
+  margin: 10px 0;
+  padding: 10px 5px;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
